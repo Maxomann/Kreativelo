@@ -1,0 +1,15 @@
+---
+---
+@import 'constants';
+@import 'browsing';
+
+.design-image-container {
+    display: block;
+}
+
+.design-image {
+    object-fit: contain;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,80 @@
+@import "constants";
+
+.browser-navbar {
+    overflow: hidden;
+    height: 60px;
+    background-color: $kv-green;
+
+    .container {
+        position: relative;
+        padding-top: 12px;
+    }
+}
+
+.browser-navbar-left {
+    float:left;
+
+    p {
+        font-size: 1.25rem;
+        margin-top: 4px;
+    }
+}
+
+.browser-navbar-right {
+    float: right;
+}
+
+.browser-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.browser-list-element {
+    flex-shrink: 1;
+    margin: 5px;
+    margin-top: 40px;
+
+    max-width: 240px;
+    background-color: rgba(140, 181, 50, 0.4);
+
+    img {
+        max-width: 100%;
+        margin: 20px;
+    }
+
+    >div {
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+}
+
+.browser-list-card {
+    flex-shrink: 0;
+    margin: 5px;
+    margin-top: 40px;
+
+    max-width: 260px;
+    width: 260px;
+    overflow: hidden;
+
+    img {
+        max-width: 280px;
+        max-height: 280px;
+        margin-left: 50%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        transform: translateX(-50%);
+    }
+
+    >div {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+}
